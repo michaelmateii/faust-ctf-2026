@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs / captures / generated data
+*.log
+*.pcap
+*.pcapng
+*.tar
+*.tar.gz
+*.zip
+
+# Secrets / local environment
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# CTF runtime data
+teams.json
+*flags*.txt
+*submit*.txt
+*seen*.txt
+cookies
+*.cookies
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
